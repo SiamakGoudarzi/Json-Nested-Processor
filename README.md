@@ -1,4 +1,4 @@
-# Jason-Nested-Processor 🚀
+# Json-Nested-Processor 🚀
 
 ## 📝 Description / Beschreibung
 
@@ -31,13 +31,13 @@
 ## 🚀 How to Run / Ausführung
 
 ### Prerequisites / Voraussetzungen
-* [cite_start]**Visual Studio 2017+**[cite: 4].
-* [cite_start]**.NET Framework 4.6.1**[cite: 1].
+* **Visual Studio 2017+**.
+* **.NET Framework 4.6.1**.
 * **Newtonsoft.Json** NuGet Package (v13.0.3).
 
 ### Steps / Schritte
 1.  **Clone the repository** / Repository klonen.
-2.  [cite_start]**Open** `JasonSerializedDeserialized.sln` in Visual Studio[cite: 4].
+2.  **Open** `JasonSerializedDeserialized.sln` in Visual Studio.
 3.  **Restore NuGet packages** / NuGet-Pakete wiederherstellen.
 4.  **Run the project (F5)** / Projekt ausführen (F5).
 
