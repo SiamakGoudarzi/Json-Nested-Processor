@@ -1,6 +1,6 @@
 # Json-Nested-Processor 
 
-## 📝 Description / Beschreibung
+## Description / Beschreibung
 
 **EN:** A C# .NET console application demonstrating advanced JSON deserialization techniques. This project focuses on handling "nested JSON" where a property contains a stringified JSON object that requires a second layer of parsing.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ Features / Funktionen
+## Features / Funktionen
 
 * **Two-Step Deserialization:** Extracts a nested JSON string from a parent object (`Product.Data`) into a concrete class (`Data`).
 * **Data Transformation:** Uses Extension Methods to map separate arrays (Color, Price, OfferPrice) into a structured `Dictionary`.
@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠 Project Structure / Projektstruktur
+## Project Structure / Projektstruktur
 
 | File / Datei | Role / Rolle |
 | :--- | :--- |
@@ -28,7 +28,7 @@
 
 ---
 
-## 🚀 How to Run / Ausführung
+## How to Run / Ausführung
 
 ### Prerequisites / Voraussetzungen
 * **Visual Studio 2017+**.
@@ -43,7 +43,7 @@
 
 ---
 
-## 📊 Example Output / Beispielausgabe
+## Example Output / Beispielausgabe
 
 **EN:** The application takes a complex JSON string and outputs:
 * The minimum price calculated from the nested data.
@@ -55,7 +55,7 @@
 
 ---
 
-### 💡 Technical Note / Technischer Hinweis
+### Technical Note / Technischer Hinweis
 **EN:** The project utilizes `[JsonIgnore]` on calculated properties to prevent circular references and keep the serialization clean.
 
 **DE:** Das Projekt verwendet `[JsonIgnore]` für berechnete Eigenschaften, um Zirkelbezüge zu verhindern und die Serialisierung sauber zu halten.
