@@ -1,4 +1,4 @@
-# Json-Nested-Processor 🚀
+# Json-Nested-Processor 
 
 ## 📝 Description / Beschreibung
 
